@@ -8,17 +8,38 @@ body {
 
 h1 {
   margin-top: 40px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h6 {
   line-height: 25px;
 }
 
-p {
+.card-text {
   color: black;
 }
 
 .card {
   margin-left: 100px;
-  margin-top: 20px;
+  margin-top: 0px;
+}
+
+.card-img-top {
+  height: 20rem;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-linkedin-square {
+  color: black;
 }
