@@ -62,5 +62,16 @@ h6 {
 
 .img1 {
   margin-left: 100px;
-  width: 70%;
+  width: 60%;
+}
+
+.img2 {
+  margin-right: 0px;
+  width: 85%;
+}
+
+.text2 {
+  margin-left: 100px;
+  text-align: center;
+  margin-right: 150px;
 }
