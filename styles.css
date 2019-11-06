@@ -27,13 +27,13 @@ h6 {
   color: black;
 }
 
-.card {
-  margin-left: 100px;
-  margin-top: 0px;
+.card-gtnm {
+  height: 20rem;
 }
 
-.card-img-top {
-  height: 20rem;
+.card-know {
+  margin-left: 100px;
+  margin-top: 0px;
 }
 
 .fa-github {
@@ -42,4 +42,25 @@ h6 {
 
 .fa-linkedin-square {
   color: black;
+}
+
+.fa-envelope {
+  color: black;
+}
+
+.get-to-know-me {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.portfolio {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.img1 {
+  margin-left: 100px;
+  width: 70%;
 }
