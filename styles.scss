@@ -3,6 +3,7 @@ $linear-text: -webkit-linear-gradient(#eee, #333);
 $text-color: azure;
 $contact-border: 2px solid azure;
 $iphonex: 375px;
+$font: 'Montserrat', sans-serif;
 
 body{
     background-image: linear-gradient(#000000, #434343);
@@ -10,16 +11,40 @@ body{
     //background-image: url("https://thewallpaper.co//wp-content/uploads/2016/03/space-stars-hd-wallpaper-download-stars-images-free-hd-images-abstract-widescreen-1920x1080.jpg");
     background-size: cover;
     position: relative;
-    
     color: azure;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font;
+    animation: transitionIn 0.75s;
+}
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
 }
 .container-startPage{
     margin-top: 50px;
+    animation: transitionIn 0.75s;
 }
 .startpage-text{
     margin-top: 160px;
 }
+.container-aboutPage{
+    animation: transitionIn 0.75s;
+
+}
+.container-portfolioPage{
+    animation: transitionIn 0.75s;
+
+}
+.container-contactPage{
+    animation: transitionIn 0.75s;
+
+}
+
 .hidden{
     display: none;
 }
@@ -39,20 +64,30 @@ h6{
 }
 .card-text{
     color: black;
+
+    @media screen and (max-width: $iphonex) {
+        text-align: center;
+    }
 }
 
 .card-gtnm{
     height: 20rem;
     margin-top: 0px;
+    @media screen and (max-width: $iphonex) {
+        margin-left: 0px;
+        margin-right: 0rem;
+        width: 300px;
+    }
 }
 .card-know{
     margin-left: 110px;
     margin-top: 50px;
+    width: 25rem; 
+    height: 20.1rem;
 
     @media screen and (max-width: $iphonex) {
-        margin-left: -35px;
-        margin-right: 0px;
-        width: 300px;
+        margin-left: -5px;
+        width: 302px;
     }
 }
 .fa-github{
@@ -67,7 +102,7 @@ h6{
 .get-to-know-me{
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .portfolio{
     text-align: center;
@@ -121,6 +156,11 @@ h6{
 .contacts{
     margin-bottom: 10%;
     color: $icon-color;
+}
+@media screen and (max-width: $iphonex) {
+    .name{
+        margin-left: 200px;
+    }
 }
 
 
