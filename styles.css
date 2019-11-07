@@ -50,6 +50,14 @@ h6 {
   margin-top: 50px;
 }
 
+@media screen and (max-width: 375px) {
+  .card-know {
+    margin-left: -35px;
+    margin-right: 0px;
+    width: 300px;
+  }
+}
+
 .fa-github {
   color: black;
 }
@@ -79,15 +87,35 @@ h6 {
   width: 60%;
 }
 
+@media screen and (max-width: 375px) {
+  .img1 {
+    width: 90%;
+    margin-left: 20px;
+  }
+}
+
 .img2 {
   margin-right: 0px;
   width: 85%;
+}
+
+@media screen and (max-width: 375px) {
+  .img2 {
+    width: 90%;
+  }
 }
 
 .text2 {
   margin-left: 100px;
   text-align: center;
   margin-right: 150px;
+}
+
+@media screen and (max-width: 375px) {
+  .text2 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 
 .contact {
@@ -114,8 +142,4 @@ h6 {
 .contacts {
   margin-bottom: 10%;
   color: black;
-}
-
-@media screen and (max-width: 375px) {
-  float: right;
 }

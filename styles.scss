@@ -48,6 +48,12 @@ h6{
 .card-know{
     margin-left: 110px;
     margin-top: 50px;
+
+    @media screen and (max-width: $iphonex) {
+        margin-left: -35px;
+        margin-right: 0px;
+        width: 300px;
+    }
 }
 .fa-github{
     color: $icon-color;
@@ -71,15 +77,29 @@ h6{
 .img1{
     margin-left: 100px;
     width: 60%;
+
+    @media screen and (max-width: $iphonex) {
+        width: 90%;
+        margin-left: 20px;
+    }
 }
 .img2{
     margin-right: 0px;
     width: 85%;
+
+    @media screen and (max-width: $iphonex) {
+        width: 90%;
+    }
 }
 .text2{
     margin-left: 100px;
     text-align: center;
     margin-right: 150px;
+
+    @media screen and (max-width: $iphonex) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
 .contact{
     text-align: center;
@@ -105,9 +125,7 @@ h6{
 
 
 
-@media screen and (max-width: $iphonex) {
-    float: right;
-}
+
 
 
 
