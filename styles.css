@@ -1,5 +1,6 @@
 body {
   background-image: linear-gradient(#000000, #434343);
+  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   color: azure;
@@ -12,6 +13,10 @@ body {
 
 .startpage-text {
   margin-top: 160px;
+}
+
+.hidden {
+  display: none;
 }
 
 h1 {
@@ -36,12 +41,13 @@ h6 {
 }
 
 .card-gtnm {
-  height: 27.8rem;
+  height: 20rem;
+  margin-top: 0px;
 }
 
 .card-know {
-  margin-left: 100px;
-  margin-top: 0px;
+  margin-left: 110px;
+  margin-top: 50px;
 }
 
 .fa-github {
@@ -58,13 +64,13 @@ h6 {
 
 .get-to-know-me {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 30px;
   margin-bottom: 150px;
 }
 
 .portfolio {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 30px;
   margin-bottom: 150px;
 }
 
@@ -86,7 +92,7 @@ h6 {
 
 .contact {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 0px;
   margin-bottom: 150px;
 }
 
@@ -110,6 +116,6 @@ h6 {
   color: black;
 }
 
-.fa {
-  font-family: 'Montserrat', sans-serif;
+@media screen and (max-width: 375px) {
+  float: right;
 }

@@ -14,38 +14,47 @@
 </head>
 
 <body>
-    <div class="container-startPage">
+    
 
 
         <div class=" p-2 d-flex flex-column  justify-content-center">
             <div class="d-flex flex-column container  ">
                 <div class="d-flex row navbar navbar-expand-lg text-primary justify-content-center">
+                        <div class=" col-sm-3">
+                                <button class="btn btn-info" id="home-btn">Hem</button>
+                            </div>
                     <div class=" col-sm-5">
-                        <button class="btn btn-info">Lär känna mig</button>
+                        <button class="btn btn-info" id="about-btn">Lär känna mig</button>
                     </div>
-                    <div class=" col-sm-6">
-                        <button class="btn btn-info">Portfolio</button>
+                    <div class=" col-sm-4">
+                        <button class="btn btn-info" id="portfolio-btn">Portfolio</button>
                     </div>
                     <div class=" col-sm">
-                        <button class="btn btn-info">Kontakt</button>
+                        <button class="btn btn-info" id="contact-btn">Kontakt</button>
                     </div>
                 </div>
             </div>
         </div>
+    <div class="container-startPage">
         <div class=" startpage-text mx-auto text-center d-flex just  justify-content-center ">
             <h1 class="m-5 p-2 align-items-center col-sm text-center text-light">Philip Lagergren Ydehed</h1>
             <h2 class="m-4 align-items-center col-sm text-center text-light">Studerande inom webbutveckling fullstack på
                 Nackademin</h2>
+                
         </div>
+        <br><br><br><br><br><br><br><br><br><br><br>
 
     </div>
+    
+    <div class="container-aboutPage hidden">
+
     <div class="get-to-know-me">
         <h1>Lär Känna Mig</h1>
     </div>
-    <div class="container-gtnmPage">
+    
 
 
-        <div class=" row m-5 p-5">
+        <div class=" row m-5 p-2">
             <h6 class="col-sm-6  text-light">Jag är en glad, pålitlig och vidsynt kille som ser fram emot att ta mig ut
                 i
                 jobbvärlden för
@@ -66,7 +75,7 @@
                 skrift, språk och bild för att kunna leverera en snygg och felfri design.
             </h6>
             <div class="row  float-right">
-                <div class="card card-know" style="width: 25rem; height: 28rem;">
+                <div class="card card-know" style="width: 25rem; height: 20.1rem;">
                     <img class="card-img-top card-gtnm"
                         src="https://cbsnews1.cbsistatic.com/hub/i/2016/08/26/cdf56aa8-1f2a-4d44-8cac-ab5993ee7d18/gettyimages-594359398.jpg"
                         alt="Card image cap">
@@ -77,7 +86,7 @@
             </div>
         </div>
     </div>
-    <div class="container-portfolioPage">
+    <div class="container-portfolioPage hidden">
 
 
         <div class="portfolio">
@@ -117,7 +126,7 @@
             </div>
         </div>
     </div>
-    <div class="container-contactPage">
+    <div class="container-contactPage hidden">
 
 
         <div class="contact">
@@ -173,6 +182,7 @@
 
 
             </div>
+            <script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
         <script src="main.js"></script>
 </body>
 
