@@ -41,10 +41,10 @@ body {
 }
 
 .burger div {
-  width: 25px;
-  height: 3px;
+  width: 45px;
+  height: 5px;
   background-color: azure;
-  margin: 5px;
+  margin: 10px;
 }
 
 .hidden {
@@ -56,12 +56,14 @@ h1 {
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  letter-spacing: 4px;
 }
 
 h2 {
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  letter-spacing: 3px;
 }
 
 h6 {
@@ -78,8 +80,12 @@ h6 {
   }
 }
 
+.menu {
+  display: none;
+}
+
 .card-gtnm {
-  height: 20rem;
+  height: 15rem;
   margin-top: 0px;
 }
 
@@ -212,14 +218,30 @@ h6 {
   cursor: pointer;
 }
 
+.info {
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.name {
+  margin-left: 30%;
+}
+
 @media screen and (max-width: 375px) {
   .name {
-    margin-left: 200px;
+    margin-top: -60px;
+    margin-left: 5%;
+    font-size: 30px;
+    text-align: center;
+  }
+  .info {
+    margin-left: 5%;
+    text-align: center;
   }
   .burger {
     display: block;
-    margin-left: 320px;
-    margin-top: 40px;
+    margin-left: 270px;
+    margin-top: 50px;
   }
   #home-btn {
     margin-left: 240px;
@@ -238,9 +260,15 @@ h6 {
     margin-top: 50px;
   }
   .container-nav {
-    opacity: 0;
+    display: none;
   }
   body {
     overflow-x: hidden;
+  }
+  .menu {
+    display: block;
+    margin-left: 265px;
+    margin-top: 50px;
+    font-size: 30px;
   }
 }
