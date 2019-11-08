@@ -6,9 +6,9 @@ $iphonex: 375px;
 $font: 'Montserrat', sans-serif;
 
 body{
-    background-image: linear-gradient(#000000, #434343);
+    //background-image: linear-gradient(#000000, #434343);
     background-repeat: no-repeat;
-    //background-image: url("https://thewallpaper.co//wp-content/uploads/2016/03/space-stars-hd-wallpaper-download-stars-images-free-hd-images-abstract-widescreen-1920x1080.jpg");
+    background-image: url("https://thewallpaper.co//wp-content/uploads/2016/03/space-stars-hd-wallpaper-download-stars-images-free-hd-images-abstract-widescreen-1920x1080.jpg");
     background-size: cover;
     position: relative;
     color: azure;
@@ -34,17 +34,19 @@ body{
 }
 .container-aboutPage{
     animation: transitionIn 0.75s;
-
 }
 .container-portfolioPage{
     animation: transitionIn 0.75s;
-
 }
 .container-contactPage{
     animation: transitionIn 0.75s;
-
 }
-
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: azure;
+    margin: 5px;
+}
 .hidden{
     display: none;
 }
@@ -157,10 +159,59 @@ h6{
     margin-bottom: 10%;
     color: $icon-color;
 }
+.container{
+    margin-top: 20px;
+}
+#portfolio-btn{
+    margin-left: 100px;
+}
+#contact-btn{
+    margin-left: 120px;
+}
+#about-btn{
+    margin-left: 80px;
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
 @media screen and (max-width: $iphonex) {
     .name{
         margin-left: 200px;
     }
+    .burger{
+       display: block;
+       margin-left: 320px;
+       margin-top: 40px;
+        
+    }
+    #home-btn{
+        margin-left: 240px;
+        margin-top: 70px;
+    }
+    #about-btn{
+        margin-left: 220px;
+        margin-top: 50px;
+
+    }
+    #portfolio-btn{
+        margin-left: 225px;
+        margin-top: 50px;
+
+    }
+    #contact-btn{
+        margin-left: 227px;
+        margin-top: 50px;
+
+    }
+    .container-nav{
+        opacity: 0;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
 }
 
 
