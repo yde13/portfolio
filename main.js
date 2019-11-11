@@ -78,3 +78,18 @@ $(document).ready(function() {
 
 });
 
+var arrLanguage = {
+    "swe" : {
+        "hem" : "Hem",
+        "om mig" : "Om mig",
+        "portfolio" : "Portfolio",
+        "kontakt" : "Kontakt"
+    },
+    "eng" :{
+        "hem" : "Home",
+        "om mig" : "About me",
+        "portfolio" : "Portfolio",
+        "kontakt" : "Contact"
+    }
+};
+

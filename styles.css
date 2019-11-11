@@ -19,6 +19,10 @@ body {
   }
 }
 
+.nav {
+  animation: transitionIn 0.75s;
+}
+
 .container-startPage {
   margin-top: 50px;
   animation: transitionIn 0.75s;
@@ -253,19 +257,19 @@ p {
     margin-top: 50px;
   }
   #home-btn {
-    margin-left: 240px;
-    margin-top: 70px;
+    float: right;
+    margin-top: 50px;
   }
   #about-btn {
-    margin-left: 220px;
+    float: right;
     margin-top: 50px;
   }
   #portfolio-btn {
-    margin-left: 225px;
+    float: right;
     margin-top: 50px;
   }
   #contact-btn {
-    margin-left: 227px;
+    float: right;
     margin-top: 50px;
   }
   .container-nav {
@@ -279,5 +283,9 @@ p {
     margin-left: 265px;
     margin-top: 50px;
     font-size: 30px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 4px;
   }
 }
