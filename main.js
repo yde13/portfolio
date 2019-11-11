@@ -92,6 +92,9 @@ var arrLanguage = {
         "links" : "Länkar",
         "mail" : "Email",
         "phone" : "Telefon",
+        "translater" : "Översättare",
+        "swedish" : "Svenska",
+        "english" : "Engelska",
     }, 
     "eng" : {
         "hem" : "Home",
@@ -106,6 +109,9 @@ var arrLanguage = {
         "links" : "Links",
         "mail" : "Mail",
         "phone" : "Phone",
+        "translater" : "Translater",
+        "swedish" : "Swedish",
+        "english" : "English",
     }
 };
 
