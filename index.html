@@ -32,16 +32,16 @@
             <div class="d-flex flex-column   ">
                 <div class="d-flex row navbar navbar-expand-lg text-primary justify-content-center">
                         <div class=" col-sm-2">
-                                <button class="btn btn-info" id="home-btn">Hem</button>
+                                <button class="btn btn-info lang" key="hem" id="home-btn">Hem</button>
                             </div>
                     <div class=" col-sm-4">
-                        <button class="btn btn-info" id="about-btn">Om mig</button>
+                        <button class="btn btn-info lang" key="om" id="about-btn">Om mig</button>
                     </div>
                     <div class=" col-sm-3">
-                        <button class="btn btn-info" id="portfolio-btn">Portfolio</button>
+                        <button class="btn btn-info lang" key="portfolio" id="portfolio-btn">Portfolio</button>
                     </div>
                     <div class=" col-sm">
-                        <button class="btn btn-info" id="contact-btn">Kontakt</button>
+                        <button class="btn btn-info lang" key="kontakt" id="contact-btn">Kontakt</button>
                     </div>
                    
                 </div>
@@ -51,15 +51,15 @@
 
     <div>
         <h1>Translator</h1>
-        <button class="translate" id="swe"></button>
-        <button class="translate" id="eng"></button>
+        <button class="translate btn btn-info" id="swe"></button>
+        <button class="translate btn btn-info" id="eng"></button>
     </div>
         
 
     <div class="container-startPage">
         <div class="startpage-text">
             <h1 class="name  ">Philip Lagergren Ydehed</h1>
-            <h2 class="info">Studerande inom webbutveckling fullstack på
+            <h2 class="info lang" key="studerande">Studerande inom webbutveckling fullstack på
                 Nackademin</h2>
                 
         </div>
@@ -70,13 +70,13 @@
     <div class="container-aboutPage hidden">
 
     <div class="get-to-know-me">
-        <h1>Om Mig</h1>
+        <h1 class="lang" key="om">Om Mig</h1>
     </div>
     
 
 
         <div class=" row m-5 p-2">
-            <h6 class="col-sm-6  text-light">Jag är en glad, pålitlig och vidsynt kille som ser fram emot att ta mig ut
+            <h6 class="col-sm-6 text-light lang" key="personligtbrev">Jag är en glad, pålitlig och vidsynt kille som ser fram emot att ta mig ut
                 i
                 jobbvärlden för
                 att skapa möjligheter för framtiden och för att skaffa erfarenhet som förbereder mig för framtida jobb.
@@ -101,7 +101,7 @@
                         src="https://cbsnews1.cbsistatic.com/hub/i/2016/08/26/cdf56aa8-1f2a-4d44-8cac-ab5993ee7d18/gettyimages-594359398.jpg"
                         alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text">Bild på mig</p>
+                        <p class="card-text lang" key="pic">Bild på mig</p>
                     </div>
                 </div>
             </div>
@@ -124,7 +124,7 @@
             <div class="col-xl-4 col-lg-5">
                 <div class="featured-text text-center text-lg-left card1">
                     <h4>Quiz app</h4>
-                    <p class="text-light mb-0">Under vår första kurs Javasctipt 1 i utbildningen fick vi som examination
+                    <p class="text-light mb-0 lang" key="quiz">Under vår första kurs Javasctipt 1 i utbildningen fick vi som examination
                         en
                         inlämningsuppift att göra ett quiz, vilket var väldigt lärorikt</p>
                 </div>
@@ -133,7 +133,7 @@
         <div class="row align-items-center no-gutters mb-5 mb-lg-5">
             <div class="col-xl-7 col-lg-7">
                 <h4 class="text2">Crm system</h4>
-                <p class="text-light mb-0 text2">Under vår andra kurs Javasctipt 2 i utbildningen fick vi som
+                <p class="text-light mb-0 text2 lang" key="crm">Under vår andra kurs Javasctipt 2 i utbildningen fick vi som
                     examination en
                     inlämningsuppift i grupp och vi skulle bygga ett crm med hjälp av scrum vilket var väldigt lärorikt
                 </p>
@@ -152,7 +152,7 @@
 
 
         <div class="contact">
-            <h1>Kontakt</h1>
+            <h1 class="lang" key="kontakt">Kontakt</h1>
         </div>
 
         <section class="contact-section bg-black contacts">
@@ -164,7 +164,7 @@
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fa fa-at text-black-50" style="font-size:24px"></i>
-                                <h4 class="text-black-50 m-0">Länkar</h4>
+                                <h4 class="text-black-50 m-0 lang" key="links">Länkar</h4>
                                 <hr class="my-4">
                                 <i class="fa fa-github medium text-black-50" style="font-size:24px"></i>
                                 <a href="https://github.com/yde13" class=" medium text-black-50">Yde13</a>
@@ -181,7 +181,7 @@
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fa fa-envelope text-black-50" style="font-size:24px"> </i>
-                                <h4 class="text-black-50 m-0">Email</h4>
+                                <h4 class="text-black-50 m-0 lang" key="mail">Email</h4>
                                 <hr class="my-4">
                                 <div class="medium text-black-50">
                                     Philip.ydehed@gmail.com
@@ -194,7 +194,7 @@
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fa fa-phone text-black-50" style="font-size:24px"></i>
-                                <h4 class="text-black-50 m-0">Telefon</h4>
+                                <h4 class="text-black-50 m-0 lang" key="phone">Telefon</h4>
                                 <hr class="my-4">
                                 <div class="medium text-black-50">+46 701 43 88 65</div>
                             </div>
