@@ -95,6 +95,8 @@ var arrLanguage = {
         "translater" : "Översättare",
         "swedish" : "Svenska",
         "english" : "Engelska",
+        "menu" : "Meny",
+
     }, 
     "eng" : {
         "hem" : "Home",
@@ -112,6 +114,8 @@ var arrLanguage = {
         "translater" : "Translater",
         "swedish" : "Swedish",
         "english" : "English",
+        "menu" : "Menu",
+
     }
 };
 

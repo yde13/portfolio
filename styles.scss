@@ -34,7 +34,7 @@ body{
     animation: transitionIn 0.75s;
 }
 .startpage-text{
-    margin-top: 160px;
+    margin-top: 100px;
 }
 .container-aboutPage{
     animation: transitionIn 0.75s;
@@ -198,6 +198,9 @@ p{
 }
 .name{
     margin-left: 30%;
+}
+.translator{
+    text-align: center;
 }
 
 @media screen and (max-width: $iphonex) {
