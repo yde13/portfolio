@@ -4,6 +4,8 @@ let portfolio = $(".container-portfolioPage");
 let contact = $(".container-contactPage");
 let burger = $(".container-nav")
 
+
+//functions that hides elements when onclick
 $(document).ready(function () {
 
     $("#about-btn").click(function () {
@@ -36,7 +38,7 @@ $(document).ready(function () {
 
 
 
-
+    //onclick with the burger menu on iphone x
     $(".burger").click(function () {
         burger.removeClass("container-nav");
 
@@ -78,6 +80,7 @@ $(document).ready(function () {
 
 });
 
+//array with everything that translates
 var arrLanguage = {
     "swe": {
         "hem": "Hem",
@@ -103,7 +106,7 @@ var arrLanguage = {
         "om" : "About me",
         "portfolio" : "Portfolio",
         "kontakt" : "Contact",
-       "studerande" : "Web development student focus fullstack at Nackademin",
+       "studerande" : "Web development student fullstack at Nackademin",
         "personligtbrev" : "I am a happy, reliable and far-sighted guy who looks forward to taking me out in the job world too to create opportunities for the future and to gain experience that prepares me for future jobs. After graduation, I want to work in a place where I can work creatively and systematically information I am assigned. My vision for the future is to work with web design where I get to design and develop websites and other social channels for creators and / or companies - I want to be the brain behind them success! I am purposeful, structured and always want to fulfill my tasks and deliver the best possible service for the person in question. I'm always on the go and I'm not late to take charge tasks to continue to develop in order to reach my goals. My creative and stubborn qualities make me not giving up without me being rather pepped at doing an even better job and seeing it as an educational challenge. As I said before, I have an eye for design and web development which makes me diligent in writing, language and image to deliver a stylish and flawless design.",
         "pic" : "Picture of me",
         "quiz" : "During our first course Javasctipt 1 in the education, we were given an assignment to do a quiz, which was very educational",
@@ -119,6 +122,7 @@ var arrLanguage = {
     }
 };
 
+//translate function
 $(function(){
     $(".translate").click(function(){
         var lang = $(this).attr("id");
@@ -128,4 +132,42 @@ $(function(){
         });  
     });
 });
-  
+
+let languages = localStorage.getItem(".translator");
+
+
+
+
+  /*var lang, defaultLanguage = "en_UK";
+  $(function(){
+    $(".translate").click(function(e){
+      languages = e.target.value;
+      lang = localStorage.getItem("Language");
+      if (lang && languages && lang != languages) { 
+        $(localStorage.setItem("Language", languages));
+        location.reload();
+      }
+    });
+    lang = localStorage.getItem("Language") || defaultLanguage;
+    doSomethingToShowThePageInThisLanguage()
+  });
+  */
+
+$(function(){
+    $(".translate").click(function(e){
+        /*
+        var str = JSON.stringify(arrLanguage);
+        localStorage.setItem("languages",str);
+        var arrLanguage = localStorage.getItem("languages");
+        arrLanguage = JSON.parse(arrLanguage);
+        */
+        languages = e.target.value;
+        $(localStorage.setItem("Language", languages));
+        localStorage.getItem(languages);
+    });
+    lang = localStorage.getItem("Language") || defaultLanguage;
+    doSomethingToShowThePageInThisLanguage()
+});
+
+//stringifyar arrlanguage i localstorage i setitem
+//JSON.stringify(arrLanguage)*/
