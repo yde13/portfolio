@@ -195,9 +195,10 @@ p{
 .info{
     margin-top: 60px;
     margin-left: 60px;
+    text-align: center;
 }
 .name{
-    margin-left: 30%;
+    margin-left: 26%;
 }
 .translator{
     text-align: center;
@@ -259,9 +260,117 @@ p{
 
 }
 
+@media screen and (max-width: 991px) and (min-width: 767px) {
+    
+    #portfolio-btn{
+        margin-left: 50px;
+    }
+    #contact-btn{
+        margin-left: 55px;
+    }
+    #about-btn{
+        margin-left: 40px;
+    }
+    .info{
+        text-align: center;
+    }
+    .card-know{
+        margin-left: 500px;
+        margin-top: -500px;
+    }
+    .img1{
+        width: 800px;
+    }
+    .card1{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .text2{
+        margin-left: 150px;
+    }
+    .img2{
+        width: 800px;
+    }
+    
+}
 
+@media screen and (max-width: 767px) and (min-width: 575px) {
+    #portfolio-btn{
+        margin-left: 0px;
+    }
+    #contact-btn{
+        margin-left: 10px;
+    }
+    #about-btn{
+        margin-left: 20px;
+    }
+    .name{
+        margin-left: 95px;
+    }
+    .info{
+        margin-right: 40px;
+    }
+    .card-know{
+        margin-left: 170px;
+        margin-top: 30px;
+        width: 350px;
+    }
+    .img1{
+        width: 600px;
+        margin-left: 80px;
+    }
+    .card1{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .img2{
+        width: 600px;
+    }
+    .col-sm-6{
+        text-align: center;
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width: 575px) and (min-width: $iphonex){
+    .burger{
+        display: block;
+        margin-left: 270px;
+        margin-top: 50px;
 
+     }
+     .menu{
+        display: block;
+        margin-left: 265px;
+        margin-top: 50px;
+        font-size: 30px;
+        background: $linear-text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: 4px;
+    }
+    .container-nav{
+        display: none;
+    }
+    #home-btn{
+        float: right;
+        margin-top: 50px;
+    }
+    #about-btn{
+        float: right;
+        margin-top: 50px;
 
+    }
+    #portfolio-btn{
+        float: right;
+        margin-top: 50px;
+
+    }
+    #contact-btn{
+        float: right;
+        margin-top: 50px;
+
+    }
+}
 
 
 
