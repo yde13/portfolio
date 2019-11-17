@@ -5,6 +5,11 @@ $contact-border: 2px solid azure;
 $iphonex: 375px;
 $font: 'Montserrat', sans-serif;
 
+$card-bg: rgb(31, 31, 88);
+$card-color: white;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
 body{
     //background-image: linear-gradient(#000000, #434343);
     background-repeat: no-repeat;
@@ -79,11 +84,14 @@ p{
     letter-spacing: 2px;
 }
 .card-text{
-    color: black;
+    color: white;
 
     @media screen and (max-width: $iphonex) {
         text-align: center;
     }
+}
+.card-text:hover{
+    text-decoration: none;
 }
 .menu{
     display: none;
@@ -109,15 +117,7 @@ p{
         width: 302px;
     }
 }
-.fa-github{
-    color: $icon-color;
-}
-.fa-linkedin-square{
-    color: $icon-color;
-}
-.fa-envelope{
-    color: $icon-color;
-}
+
 .get-to-know-me{
     text-align: center;
     margin-top: 30px;
